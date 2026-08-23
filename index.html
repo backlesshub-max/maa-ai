@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Clay AI Chat</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <main class="app">
+    <header class="topbar clay">
+      <div class="title">
+        <h1>Clay AI</h1>
+        <p>Offline Q/A Chatbot (JS knowledge base)</p>
+      </div>
+    </header>
+
+    <section id="chat" class="chat clay" aria-live="polite"></section>
+
+    <footer class="composer clay">
+      <textarea id="input" rows="1" placeholder="Type your question… (Enter to send, Shift+Enter for new line)"></textarea>
+      <button id="send">Send</button>
+    </footer>
+  </main>
+
+  <!-- Load data first -->
+  <script src="data/climatology.js"></script>
+  <script src="data/assam.js"></script>
+  <script src="data/india.js"></script>
+  <script src="data/self.js"></script>
+  <script src="data/geography.js"></script>
+  <script src="data/fun.js"></script>
+
+  <!-- App logic -->
+  <script src="app.js"></script>
+</body>
+</html>
