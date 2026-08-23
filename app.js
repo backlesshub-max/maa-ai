@@ -178,4 +178,4 @@ input.addEventListener("keydown", (e)=>{
 });
 
 // Welcome
-addMessage("Ask me about Climatology, Assam, India, Geography, or about myself (abilities/limits).", "bot");
+addMessage("CHAT WITH ME", "bot");
